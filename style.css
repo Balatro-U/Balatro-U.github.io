@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body{
+    background-color:rgb(228, 120, 120);
+    color:white;
+}
+
+.text{
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Jersey 10', sans-serif;
+}
