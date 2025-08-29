@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
 body{
-    background-color:rgb(228, 120, 120);
-    color:white;
+    background-image: url('https://i.redd.it/l0cxejlvv3je1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-color: rgba(77, 6, 6, 0.364);
+    background-blend-mode: darken;
 }
 
 .text{
+    color: white;
     font-size: 4vw;
     text-align: center;
     font-family: 'Jersey 10', sans-serif;
+}
+
+.highlight{
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Jersey 10', sans-serif;
+    color: rgb(255, 136, 136);
 }
