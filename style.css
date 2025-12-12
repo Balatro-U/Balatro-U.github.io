@@ -93,44 +93,47 @@ body a:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
 }
 
+
 .nav-items a{
   position: relative;
   border-radius: 10px;
   background: repeating-linear-gradient(
   180deg,
-  #0000002f,
-  #0000002f 3px,
+  #00000015,
+  #00000015 3px,
   transparent 6px,
   transparent 15px
   );
   background-size: 100% 10px;
   padding: 1vw 2vw;
-  transition: background 0.5s, color 0.5s, background-position 0.5s, box-shadow 0.5s, border 0.5s;
+  border-inline: 10px;
+  transition: background 0.5s, color 0.5s, background-position 0.5s, box-shadow 0.5s, border-color 0.3s;
   box-shadow: 0px 10px 0px #354047;
-  border: 0px solid white;
 }
 
 .nav-items a:link{
   color: rgb(255, 255, 255);
-  border: 0px solid white;
   text-decoration: none;
-  transition: background 0.5s, color 0.5s, background-position 0.5s, box-shadow 0.5s, border 0.5s;
+  transition: background 0.5s, color 0.5s, background-position 0.5s, box-shadow 0.5s, border-color 0.3s;
 }
 
 .nav-items a:visited{
     color: rgb(255, 255, 255);
-    border: 0px solid white;
     text-decoration: none;
-    transition: background 0.5s, color 0.5s, background-position 0.5s, box-shadow 0.5s, border 0.5s;
+    transition: background 0.5s, color 0.5s, background-position 0.5s, box-shadow 0.5s, border-color 0.3s;
 }
 
 .nav-items a:hover{
   text-decoration: none;
-  border-color: white;
-  border: 2px solid white;
   cursor: url("pointer.ico"), pointer;
-  box-shadow: 0px 15px 0px #354047;
-  transition: background 0.5s, color 0.5s, background-position 0.5s, box-shadow 0.5s, border 0.5s;
+  box-shadow: 10px 15px 0px #354047, inset 0px 0px 0px 5px rgb(255, 255, 255);
+  border-color: #ffffff;
+  transition: background 0.5s, color 0.5s, background-position 0.5s, box-shadow 0.2s, border-color 0.3s;
+}
+
+.nav-items .active-site{
+  box-shadow: 10px 15px 0px #354047, inset 0px 0px 0px 5px rgb(255, 255, 255);
+  border-color: #ffffff;
 }
 
 /* Hero section styles */
