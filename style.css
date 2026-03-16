@@ -176,6 +176,7 @@ body a:hover{
 .hero-text h1{
     font-weight: normal;
     font-size: 7vw;
+    line-height: 0.2;
 }
 
 /* content text*/
