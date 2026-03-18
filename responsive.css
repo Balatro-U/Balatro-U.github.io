@@ -2,6 +2,16 @@
 @media screen and (max-width: 768px) {
     body, html {
         font-size: 4vw;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    ::-webkit-scrollbar {
+    width: 0;  
+    background: transparent; 
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #FF0000;
     }
     
     .navbar{
